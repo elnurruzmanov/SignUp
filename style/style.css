@@ -1,0 +1,197 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1180px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  font-family: "PT Sans";
+  background-image: url("../image/Shape.png");
+  background-repeat: no-repeat;
+  background-position: right bottom 35%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* signUp open */
+.signUp {
+  padding: 20px;
+  width: 15%;
+  height: 100vh;
+  background-color: #5a61ed;
+  position: relative;
+}
+
+.signUp-title {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 49px;
+  line-height: 63px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  transform: rotate(-90deg);
+  position: absolute;
+  bottom: 90px;
+  right: 10px;
+}
+
+/* signUp close*/
+
+/* Form open */
+
+.form {
+  padding: 30px 20px;
+  width: 70%;
+}
+
+.form label {
+  margin: 20px 0px;
+}
+
+.form-title {
+  font-family: "Work Sans", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: -0.46px;
+  color: #111111;
+}
+
+.form-text {
+  font-family: "Work Sans";
+  font-size: 14px;
+  line-height: 16px;
+  color: #111111;
+  margin-top: 10px;
+}
+
+/* input open */
+.login-form {
+  padding: 20px 0px;
+}
+
+.login-form2 {
+  padding: 20px 0px;
+  margin-left: 300px;
+}
+
+.forms {
+  display: flex;
+  align-items: center;
+}
+
+label {
+  font-family: "Work Sans";
+  font-size: 12px;
+  line-height: 14px;
+  color: #7c7c7c;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid #f2f2f2;
+}
+
+.input {
+  border: none;
+  outline: none;
+  font-family: "Work Sans";
+  font-size: 14px;
+  line-height: 16px;
+  color: #111111;
+  margin: 5px 0;
+}
+
+.label {
+  margin-top: 16px;
+}
+
+.select {
+  font-family: "Work Sans";
+  font-size: 14px;
+  line-height: 16px;
+  color: #111111;
+  border: none;
+  margin: 5px;
+  outline: none;
+}
+
+.label2 {
+  margin-top: 20px;
+}
+
+#select {
+  border: none;
+  outline: none;
+}
+
+.label-date {
+  margin-top: 10px;
+}
+
+#select option {
+  font-family: "WorkSans";
+  font-size: 14px;
+  line-height: 16px;
+  color: #111111;
+}
+
+.label3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gender-label {
+  display: flex;
+  margin-top: 20px;
+}
+
+.female {
+  margin-left: 15px;
+}
+
+.span {
+  font-family: "Work Sans";
+  font-size: 13px;
+  line-height: 15px;
+  color: #5a61ed;
+  cursor:pointer;
+  text-decoration: underline;
+}
+
+.complete-text p {
+  font-family: "Work Sans";
+  font-size: 13px;
+  line-height: 15px;
+  color: #000000;
+}
+
+.complete-footer {
+  display: flex;
+  align-items: center;
+  margin-top:20px;
+}
+
+.button {
+  background: #5a61ed;
+  border: 0.5px solid #ffffff;
+  padding: 10px 15px;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FFFFFF;
+  margin-left: 400px;
+  cursor: pointer;
+}
+
+/* Form close */
